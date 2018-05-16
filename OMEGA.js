@@ -2,10 +2,8 @@
 1. This code is probably messy but I don't mind. It works, right?
 */
 // Initialization of variables
-var units;
-var units = 0;
-var tickms;
-var tickms = 33;
+var units; var units = 0;
+var tickms; var tickms = 33;
 
 // Functions
 function updateUnits() { // Update the units text.
@@ -19,12 +17,12 @@ function updateUnits() { // Update the units text.
 	}
 }
 
-function buy(g) { // Buy a certain generator.
+function buy(gen) { // Buy a certain generator.
 	alert("This is a work in (not much) progress right now.");
 }
 
-function tick(s) { // Called whenever 1 tick passes by.
-	units += s;
+function tick(seconds) { // Called whenever 1 tick passes by.
+	units += seconds;
 	updateUnits()
 }
 setInterval(tick, tickms, (tickms / 1000));
