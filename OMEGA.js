@@ -1,6 +1,7 @@
 /* Notes: 
 1. This code is probably messy but I don't mind. It works, right?
 */
+
 // Initialization of variables
 var units; var units = 0;
 var tickms; var tickms = 33;
